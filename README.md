@@ -11,7 +11,7 @@ The UWP sample code works as expected with code that updates the Background and 
 In WinUI3 Preview3, the Background and Foreground of the window Title Bar cannot be customized by using SetTitleBar method in the MainPage due the compile error "Window does not contain definition for 'SetTitleBar'."
 
 **Steps to reproduce the bug**
-1. Clone the [WinUI3 Preview 3 Problems Set Title Bar repository](https://github.com/eleanorleffler/WinUI3Preview3_Problems_SetTitleBar).
+1. Clone the repository.
 2. Go to the SetTitleBarWinUIPreview3 folder.
 3. Open the SetTitleBarWinUIPreview3 solution in Visual Studio 2019 Preview.
 4. Build and run with Debug x64.
@@ -32,6 +32,25 @@ We expect there to be a programmatic way to customize the Title Bar and for the 
 **Screenshots**
 
 Side by Side Comparisons between UWP and WinUI3 Preview 3
+
+![UWP Start](https://github.com/eleanorleffler/WinUI3Preview3_Problems_SetTitleBar/blob/main/Screenshots/UWP_Start.PNG)
+![WinUI Start](https://github.com/eleanorleffler/WinUI3Preview3_Problems_SetTitleBar/blob/main/Screenshots/WinUI3_Start.PNG)
+
+![UWP Home](https://github.com/eleanorleffler/WinUI3Preview3_Problems_SetTitleBar/blob/main/Screenshots/UWP_HomePageClick.PNG)
+![WinUI Home](https://github.com/eleanorleffler/WinUI3Preview3_Problems_SetTitleBar/blob/main/Screenshots/WinUI3_HomePageClick.PNG)
+
+![UWP SecondPageClick FilePickerClick](https://github.com/eleanorleffler/WinUI3Preview3_Problems_SetTitleBar/blob/main/Screenshots/UWP_SecondPageClick_FilePickerClick.PNG)
+![WinUI SecondPageClick FilePickerClick](https://github.com/eleanorleffler/WinUI3Preview3_Problems_SetTitleBar/blob/main/Screenshots/WinUI3_SecondPageClick_FilePickerClick.PNG)
+
+![UWP ContentDialogClick](https://github.com/eleanorleffler/WinUI3Preview3_Problems_SetTitleBar/blob/main/Screenshots/UWP_ContentDialogClick.PNG)
+![WinUI ContentDialogClick](https://github.com/eleanorleffler/WinUI3Preview3_Problems_SetTitleBar/blob/main/Screenshots/WinUI3_ContentDialogClick.PNG)
+
+![UWP ContentDialogFilePickerClick](https://github.com/eleanorleffler/WinUI3Preview3_Problems_SetTitleBar/blob/main/Screenshots/UWP_ContentDialogFilePickerClick.PNG)
+![WinUI ContentDialogFilePickerClick](https://github.com/eleanorleffler/WinUI3Preview3_Problems_SetTitleBar/blob/main/Screenshots/WinUI3_ContentDialogFilePickerClick.PNG)
+
+Commented out code due to error
+
+![WinUI CodeError](https://github.com/eleanorleffler/WinUI3Preview3_Problems_SetTitleBar/blob/main/Screenshots/WinUI3_CodeError.PNG)
 
 **Version Info**
 
